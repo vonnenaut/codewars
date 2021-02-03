@@ -67,9 +67,7 @@ class Array
   end
 
   def square
-    squares = @int_array.map do |num|
-      num * num
-    end
+    squares = @int_array.map {|num| num**2 }
   end
 
   def cube
